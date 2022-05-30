@@ -1,0 +1,5 @@
+https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance
+
+docker run -d --name oracle21cXE -p 1521:1521 -p 5500:5500 -p 8080:8080 -e ORACLE_PWD=password123 -v /home/naushadnaleer/localoradata:/opt/oracle/oradata oracle/database:21.3.0-xe
+
+
