@@ -1,3 +1,9 @@
 https://www.balena.io/etcher/ -- to flash iso images on usb
 
+To install vmware ssl-vpn client:
+ - log into https://staff-vpn.geoplace.co.uk and login with your AD credentials
+ - Click on Full Access and download the phat client tar.gz
+ - unzip and execute script ./install_linux_phat_client.sh. I recevied error NSS pkg not found, I modified the shell script to look for firefox in /usr/bin/firefox (it's there the error came from)
 
+Problem - unable to share my screen with others in MS Teams
+Solution - sudoedit /etc/gdm3/custom.conf and uncomment WaylandEnable=false, this disables Wayland (I do not know what wayland is yet!)
